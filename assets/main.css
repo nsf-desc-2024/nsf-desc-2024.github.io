@@ -50,8 +50,10 @@ h3{font-size:1.67em;}
 h4{font-size:1.33em;}
 p{list-style:none; margin:24px auto 24px auto; padding:0px; width:900px; text-align:left;}
 li a, p a {text-decoration:underline; text-decoration-color:#b8860b;}
-ul{list-style:none; margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}
-ul li{list-style:none; margin:0px auto 0px auto; padding:0px; text-align:left;}
+/*ul{list-style:none; margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}
+ul li{list-style:none; margin:0px auto 0px auto; padding:0px; text-align:left;}*/
+ul{margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}
+ul li{margin:0px auto 0px auto; padding:0px; text-align:left;}
 i,em{font-style:italic;}
 b,strong{font-weight:bold;}
 sup{
@@ -89,13 +91,13 @@ th,td{
 .year{color: #505050; font-size:0.67em; font-weight: lighter;}
 
 /* Navigation Links (Home, Registration, etc) */
-table.navigation{width:800px;}
-td.navigation{font-size:1.67em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
+table.navigation{width:900px;}
+td.navigation{font-size:1.67em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 50px 0px 0px;}
 
 /* Sponsor Images */
 table.sponsors{width:800px;}
 td.sponsor{white-space:nowrap; width:33%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
-td.sponsor img{width: 100%}
+td.sponsor img{width: 60%}
 
 /* The Table on the Program Page */
 td.room{padding: 4px 12px 4px 4px; width: 90%; vertical-align:bottom; font-size:1.67em; color: #52739e; height:32px;}
